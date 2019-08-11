@@ -1,0 +1,30 @@
+{
+  "name": "platziverse-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple iot platform - web dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "start-dev": "SET DEBUG=platziverse:* && nodemon server.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jheison morales",
+  "license": "MIT",
+  "devDependencies": {
+    "envify": "^4.1.0",
+    "nodemon": "^1.19.1",
+    "standard": "^13.1.0",
+    "uglify-js": "^3.6.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-asyncify": "^1.0.0",
+    "platziverse-agent": "file:../platziverse-agent",
+    "request-promise-native": "^1.0.7",
+    "socket.io": "^2.2.0"
+  }
+}

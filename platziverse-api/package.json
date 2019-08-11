@@ -1,0 +1,39 @@
+{
+  "name": "platziverse-api",
+  "version": "1.0.0",
+  "description": "A simple IoT platform - API",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "set DEBUG=platziverse:* && ava --verbose",
+    "start-dev": "set DEBUG=platziverse:* && nodemon server.js",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "standard"
+  },
+  "ava": {
+    "files": [
+      "test/**-test.js"
+    ]
+  },
+  "author": "jheison morales",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "nodemon": "^1.19.1",
+    "proxyquire": "^2.1.1",
+    "sinon": "^7.4.1",
+    "standard": "^13.1.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-asyncify": "^1.0.0",
+    "express-jwt": "^5.3.1",
+    "express-jwt-permissions": "^1.3.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "platziverse-db": "file:../platziverse-db"
+  }
+}
