@@ -30,7 +30,7 @@
     "debug": "^4.1.1",
     "defaults": "^1.0.3",
     "inquirer": "^6.5.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "pg": "^7.12.0",
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.12.2"
