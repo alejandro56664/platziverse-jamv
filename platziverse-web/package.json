@@ -25,6 +25,6 @@
     "express-asyncify": "^1.0.0",
     "platziverse-agent": "file:../platziverse-agent",
     "request-promise-native": "^1.0.7",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.5.0"
   }
 }
