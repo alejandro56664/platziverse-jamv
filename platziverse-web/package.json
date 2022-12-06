@@ -21,7 +21,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "debug": "^4.1.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-asyncify": "^1.0.0",
     "platziverse-agent": "file:../platziverse-agent",
     "request-promise-native": "^1.0.7",
